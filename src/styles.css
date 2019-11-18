@@ -1,0 +1,61 @@
+.App > .Sections {
+    display: flex;
+}
+
+.App .header {
+    width: 100vw;
+    height: 5vh;
+    text-align: center;
+    line-height: 5vh;
+}
+
+.App > .Sections > .Section {
+    height: 95vh;
+    width: 33.33vw;
+    background-color: #869F7F;
+    color: white;
+}
+
+.App > .Sections > .Section > .HeaderSection {
+    height: 50px;
+}
+
+.App > .Sections > .Section > .Actions {
+    height: 50px;
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+}
+
+.App > .Sections > .Section > .Actions > .AddButton {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+}
+
+.App > .Sections > .Section > .Actions > .WSButton {
+    height: 30px;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 30%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.App > .Sections > .Section > .Actions > .Connect {
+    background: green;
+}
+
+.App > .Sections > .Section > .Actions > .Disconnect {
+    background: red;
+}
+
+.App > .Sections > .Section > .Monitor {
+    width: 80%;
+    height: 800px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
